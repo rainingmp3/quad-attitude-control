@@ -1,6 +1,6 @@
 # Quadcopter attitude controller simulation
 
-This project simulates a quadrotor UAV with realistic dynamics, including  adaptation to mass and center-of-mass (COM), aerodynamic drag on drones body and propellers. It includes a PD-based attitude controller, 3D visualization of flight behavior.
+This project simulates a quadrotor UAV PD-based attitude controller with 3D visualization of flight path.
 
 ## Features
 
