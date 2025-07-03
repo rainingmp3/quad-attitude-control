@@ -1,4 +1,24 @@
-# quad-attitude-control
+# Qyuadcopter attitude controller simulation
+
+This project simulates a quadrotor UAV with realistic body and motor dynamics, including  adaptation to mass and center-of-mass (COM) changes during flight. It includes a PD-based attitude controller, 3D visualization of flight behavior, and extensible modules for further research.
+
+## Features
+
+- ✅ 6DOF drone body dynamics 
+- ✅ Attitude control using PD 
+- ✅ Inertia tensor, Mass & COM adaptation to variable payload
+- ✅ Visualization and animation via matplotlib 3D 
+
+## Key Files
+
+- `main.py`: Simulation setup and control loop
+- `drone.py`: Central Node of the simulation
+- `controller.py`: Control input calculation  
+- `dynamics.py` & `dynamic_utils.py`: Flight dynamics calculation
+- `animator.py`: Visualization of drone position and attitude
+## Demo
+TODO: Add GIFs 
+## Diploma  annotation in English
 
 In the thesis, a system for controlling the direction and altitude of an Unmanned
 Aerial Vehicle (UAV) such as a quadcopter was created. To calculate the flight dynamics of the UAV, a mathematical model of the vehicle was built, taking into account the effects of gravity, air resistance on the drone's body and its propellers, motor thrust, and the representation of forces and moments in different coordinate systems.
@@ -13,4 +33,5 @@ Python programming language. The project did not use any other programming libra
 except numpy for working with matrices and matplotlib for playing animations and
 displaying graphs of flight indicators.
 
-My mains inspiration were Coursera Aerial Robotics by Vijar Kumar and MIT Robotic VNAV course
+## Sources 
+Main sources of inspiration were Coursera Aerial Robotics by [Vijar Kumar](https://www.coursera.org/learn/chatgpt-excel-formulas-visualizations) and [MIT Robotics VNAV course](https://vnav.mit.edu/).

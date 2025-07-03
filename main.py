@@ -9,7 +9,7 @@ The drone has "x" shape configuration.
 Off-diagonal terms of matrix of inertia are assumed to be 0.
 
 Author: Kotanov Ivane
-No rights reserved though :)
+That was my diploma project :)
 """
 
 from src.drone.drone import Drone

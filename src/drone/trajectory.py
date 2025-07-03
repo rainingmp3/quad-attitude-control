@@ -2,7 +2,7 @@ import numpy as np
 
 class Trajectory:
     """
-    Generates trajectories based on initial state and final point.
+    TODO : Generates trajectories based on initial state and final point.
     """
     def __init__(self, 
                  drone):
