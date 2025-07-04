@@ -17,7 +17,10 @@ This project simulates a quadrotor UAV PD-based attitude controller with 3D visu
 - `dynamics.py` & `dynamic_utils.py`: Flight dynamics calculation
 - `animator.py`: Visualization of drone position and attitude
 ## Demo
-TODO: Add GIFs 
+Drone stabilizes with attached mass of 1.5 kg, initial roll & pitch angles are 30 and 20 dergrees.
+
+ ![alt text](4gif.gif)
+
 ## Diploma  annotation in English
 
 In the thesis, a system for controlling the direction and altitude of an Unmanned

@@ -233,7 +233,7 @@ class Animator:
         self.anime = FuncAnimation(self.fig,
                         self.animate,
                         frames=len(self.drone.states_log),
-                        interval=self.drone.time_elapsed/len(self.drone.states_log) * 200,
+                        interval=self.drone.time_elapsed/len(self.drone.states_log) *1000,
                         blit = False,
                         init_func = self.init_anime,
                         repeat=repeat)
